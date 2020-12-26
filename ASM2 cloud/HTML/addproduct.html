@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	
+        <link rel="stylesheet" href="../css/style.css">
+		
+        <title>Add Product</title>
+    </head>
+
+    <body>
+		<!-- Header -->
+        <header>
+			
+			
+			<div id="menu">
+				<div id="menu-content">
+					
+							
+						<li class="submenu">  
+							<a href="product.html" title="Product">Product</a>
+						</li>
+						<li class="submenu">
+							<a href="addproduct.html" title="Add Product">Add Product</a>
+						</li>
+						<li class="submenu" id="logoset">
+								<img id="logo" src="../image/home1.png"/> <br/> 
+								<h2 id="banner">Denny's store</h2>
+							</a>
+						</li>
+						<li class="submenu">
+							<a href="login.html" title="Login">Login</a>
+						</li>
+						<li class="submenu">
+							<a href="contact.html" title="Contact">Contact</a>
+						</li>
+					</ul>
+			
+				</div>
+			</div>
+        </header>
+		<form id="addproduct">
+            <label class="label">ID: </label>
+            <br><input type="text" id="product_id">
+            <hr>
+
+            <label class="label">Name: </label>
+            <br><input type="text" id="product_name">
+            <hr>
+
+            <label class="label">Price: </label>
+            <br><input type="number" id="product_price">
+            <hr>
+
+            <label class="label">Category: </label>
+            <br><input type="number" id="product_category">
+            <hr>
+
+            <label class="label">Description: </label>
+            <br><input type="text" id="product_des">
+            <hr>
+
+            <label class="label">Image: </label>
+            <br><input type="text" id="product_img">
+            <hr>
+
+            <br><input type="submit" class="addbtn" value="ADD">
+
+        </form>
+		
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="../js/index.js"></script>	
+			
+    </body>
+</html>

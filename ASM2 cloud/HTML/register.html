@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	
+        <link rel="stylesheet" href="../css/style.css">
+		
+        <title>Denny's Store</title>
+    </head>
+
+    <body>
+        <header>
+			
+			
+			<div id="menu">
+				<div id="menu-content">
+					
+							
+						<li class="submenu">  
+							<a href="product.html" title="Product">Product</a>
+						</li>
+						<li class="submenu">
+							<a href="addproduct.html" title="Add Product">Add Product</a>
+						</li>
+						<li class="submenu" id="logoset">
+								<img id="logo" src="../image/home1.png"/> <br/> 
+								<h2 id="banner">Denny's store</h2>
+							</a>
+						</li>
+						<li class="submenu">
+							<a href="login.html" title="Login">Login</a>
+						</li>
+						<li class="submenu">
+							<a href="contact.html" title="Contact">Contact</a>
+						</li>
+					</ul>
+			
+				</div>
+			</div>
+        </header>
+
+		<form id="frm-register">
+			<div id="error"></div>
+
+				<br><label for="fullname" class="label">Fullname</label>
+				<input type="text" name="fullname" class="input_field" id="fullname" placeholder="Please enter your name here!" required>
+				
+	
+				<label for="username" class="label">Username</label>
+				<input type="email" name="username" class="input_field" id="username" placeholder="name@expamle.com" required>
+			   
+	
+				<label for="password" class="label">Password</label>
+				<input type="password" name="password" class="input_field" id="password" placeholder="6 - 20 characters" minlength="6" maxlength="20" required>
+				
+	
+				<label for="confirm_password" class="label">Confirm Password</label>
+				<input type="password" name="password" class="input_field" id="confirm-password" minlength="6" maxlength="20" placeholder="Confirm your password" required>
+				
+	
+				<label for="phone" class="label">Phone</label> 
+				<input type="tel" name="phone" class="input_field" id="phone" required>
+				
+	
+				<label for="birthday" class="label">Birthday</label> 
+				<input type="date" name="birthday" class="input-field" id="birthday" required>
+				
+				<label for="address" class="label">Address</label> 
+				<input type="text" name="address" class="input-field" id="address" required>
+			 
+			<div class="register_page_btn">
+				<br>
+				<input type="submit" id="btn-register" class="btn_register" value="Register">
+				<input type="reset" class="btn_clear" value="Clear">
+			</div>
+	
+		</form>
+	
+	   <div class="bonus">
+		<br><br><p>Have an account? Back to <a href="login.html" rel="external">login</a></p>
+	   </div>
+	</div>       
+
+
+
+
+
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="../js/index.js"></script>	
+			
+    </body>
+</html>
